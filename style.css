@@ -9,13 +9,11 @@ h1 {
 
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 10px;
 }
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  #main-menu ul {
-    flex-direction: column;
-  }
+a {
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
