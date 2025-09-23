@@ -1,3 +1,6 @@
+body {
+  background-color: lightblue;
+}
 .grid {
   display: grid;
   gap: 20px; 
