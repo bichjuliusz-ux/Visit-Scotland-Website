@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: darkblue;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url("scotland.jpg") no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.alt-layout .row {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+.alt-layout .row.reverse {
+  flex-direction: row-reverse;
+}
+.alt-layout img {
+  width: 40%;
+  border-radius: 8px;
+}
+.alt-layout div {
+  flex: 1;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.gallery img {
+  width: 200px;
+  border-radius: 6px;
+}
+.gallery figcaption {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-boxes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: darkblue;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+form input, form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+form button {
+  background: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
