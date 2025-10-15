@@ -156,45 +156,11 @@ nav a:hover {
   border-top: 5px solid var(--accent);
 }
 
-
 footer {
   background: var(--primary);
   color: white;
   text-align: center;
   padding: 40px 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 400px;
-  margin: 0 auto 20px;
-}
-
-form input, form textarea {
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  resize: vertical;
-}
-
-form button {
-  background: var(--accent);
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-form button:hover {
-  background: #e8923a;
-}
-
-.credits {
-  font-size: 0.9em;
 }
 
 @media (max-width: 800px) {
