@@ -97,7 +97,7 @@ nav a:hover {
   border-radius: 8px;
 }
 
-/* Culture (Alternating Flex Rows) */
+/* Culture (Flex Rows) */
 .alt-layout .row {
   display: flex;
   gap: 20px;
