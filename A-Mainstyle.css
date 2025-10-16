@@ -138,7 +138,7 @@ nav a:hover {
   margin-top: 5px;
 }
 
-/* Travel Info (Boxes with Flexbox) */
+/* Travel Info (Boxes with Flexbox) and media */ 
 .info-boxes {
   display: flex;
   flex-wrap: wrap;
